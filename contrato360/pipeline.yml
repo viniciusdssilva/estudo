@@ -1,0 +1,22 @@
+ambienteBuild: registry.bndes.net:5000/bndes/buildenv:1.0.10
+ambientesImplantacaoRelease: 
+    - dsv
+    - hom
+    - prd
+mavenRelease:
+    skipJavadoc: true
+    skipTest: true
+    skipPmd: true
+sumario: Contrato360 - passagem para Desenvolvimento
+gruposGerente:
+    - nomeExibicao: DATA ANALYTICS
+      organizacaoRemedy: DADOS
+      grupoRemedy: DATA ANALYTICS
+      gerente: argol
+tarefas:
+- tipo: docker
+  itemConfiguracao: TS:MODELO IA
+docker:
+    dockerfilePath: .
+    tagImagem: registry.bndes.net:5000/bndes/contrato360
+    servicoRundeck: contrato360/APP_DOCKER_IMAGE_VERSION

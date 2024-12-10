@@ -1,0 +1,23 @@
+version: '3.4'
+ 
+services:
+   contrato360:
+      image: registry.bndes.net:5000/bndes/contrato360:1.0.0
+      build:
+         context: ./
+         args:
+            - http_proxy=${HTTP_PROXY:-http://proxy01.bndes.net:8080}
+            - https_proxy=${HTTPS_PROXY:-http://proxy01.bndes.net:8080}
+            - HTTP_PROXY=${HTTP_PROXY:-http://proxy01.bndes.net:8080}
+            - HTTPS_PROXY=${HTTPS_PROXY:-http://proxy01.bndes.net:8080}
+            - no_proxy=${NO_PROXY:-bndes.net}
+            - NO_PROXY=${NO_PROXY:-bndes.net}
+      ports:
+         - 8087:8501
+      environment:
+         - APP_SECRET_VALUE=${APP_SECRET_VALUE}
+         - APP_SECRET_VALUE_KEY=${APP_SECRET_VALUE_KEY}
+         - APP_SECRET_VALUE_ENDPOINT=${APP_SECRET_VALUE_ENDPOINT}
+         - APP_SECRET_VALUE_DEPLOYMENT_KEY=${APP_SECRET_VALUE_DEPLOYMENT_KEY}
+         - APP_SECRET_VALUE_DEPLOYMENT_EMBED=${APP_SECRET_VALUE_DEPLOYMENT_EMBED}
+         

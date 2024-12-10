@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>gov.bndes.dtl.ingestao</groupId>
+	<artifactId>contrato360</artifactId>
+	<version>1.0.21-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+    <scm>
+        <developerConnection>
+            scm:git:${env.REPOSITORIO_GIT}
+        </developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <distributionManagement>
+        <repository>
+            <uniqueVersion>false</uniqueVersion>
+            <id>${env.DISTRIBUTION_MANAGEMENT_ID}</id>
+            <name>${env.DISTRIBUTION_NAME}</name>
+            <url>${env.DISTRIBUTION_MANAGEMENT_URL}</url>
+            <layout>default</layout>
+        </repository>
+    </distributionManagement>
+
+</project>

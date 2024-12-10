@@ -1,0 +1,7 @@
+.ipynb_checkpoints
+nextSteps
+contratos
+__pycache__
+.env
+*.txt
+**/*.log
