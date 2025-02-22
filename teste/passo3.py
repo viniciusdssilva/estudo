@@ -85,4 +85,4 @@ for idx, row in data.iterrows():
 # Save results
 data['response'] = responses
 data['retrieved_contexts'] = retrieved_contexts_list
-data.to_json("results.json", index=False)
+data.to_csv("results.csv", index=False, encoding='utf-8-sig')

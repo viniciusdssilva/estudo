@@ -25,36 +25,13 @@ import time  # For timestamp-based file naming
 # Apply nest_asyncio to avoid event loop issues
 nest_asyncio.apply()
 
-
-# Load environment variables from .env file
-load_dotenv()
-
-
-# Access API keys and validate them
-#anthropic_api_key = os.getenv("ANTHROPIC_API_KEY")
-#cohere_api_key = os.getenv("COHERE_API_KEY")
-openai_api_key = os.getenv("OPENAI_API_KEY")
-
 #Meu code
 openai_api_key = os.environ.get('OPENAI_API_KEY')
-
-
-if not openai_api_key:
-    raise ValueError("OpenAI API Key not found.")
-#if not anthropic_api_key:
-    raise ValueError("Anthropic API Key not found.")
-#if not cohere_api_key:
-    raise ValueError("Cohere API Key not found.")
-
-
-# Initialize W&B logging
-wandb.init(project="RAGAS_Model_Evaluation", name="multi_model_visualization")
-
+anthropic_api_key = os.environ.get("ANTHROPIC_API_KEY")
 
 # List of generation and embedding models to compare
 gen_models = ["gpt-4o-mini", "claude-3-5-sonnet-20240620"]
-embed_models = ["openai", "cohere"]
-
+embed_models = ["openai"]
 
 # Helper function to select the appropriate generation model
 def get_generation_model(gen_model_name):
@@ -109,7 +86,6 @@ def log_heatmap(heatmap_data, metric_name):
         xaxis_title="Score Bin", yaxis_title="Model Pair"
     )
 
-
     heatmap_html_path = f"./heatmap_{metric_name}.html"
     fig.write_html(heatmap_html_path, auto_play=False)
     wandb.log({f"{metric_name} Heatmap": wandb.Html(heatmap_html_path)})
@@ -130,7 +106,6 @@ for gen_model, embed_model in zip(gen_models, embed_models):
     model_pair = f"{gen_model}_{embed_model}"
     output_eval_csv = f"./evaluation_results_{model_pair}.csv"
 
-
     # Check if evaluation results exist
     if os.path.exists(output_eval_csv):
         print(f"Loading existing results for {model_pair}.")
@@ -140,20 +115,16 @@ for gen_model, embed_model in zip(gen_models, embed_models):
         input_csv_path = f"./results_{model_pair}.csv"
         data = pd.read_csv(input_csv_path)
 
-
         # Parse retrieved contexts from the CSV
         if 'retrieved_contexts' in data.columns:
             data['retrieved_contexts'] = data['retrieved_contexts'].apply(ast.literal_eval)
-
 
         # Prepare evaluation dataset
         eval_data = data[['user_input', 'reference', 'response', 'retrieved_contexts']].to_dict(orient="records")
         eval_dataset = EvaluationDataset.from_list(eval_data)
 
-
         # Get the appropriate generation model for evaluation
-        evaluator_llm = LangchainLLMWrapper(ChatOpenAI(model="gpt-4o-2024-08-06"))
-
+        evaluator_llm = LangchainLLMWrapper(ChatOpenAI(model="gpt-4o"))
 
         # Evaluate the dataset
         metrics = [

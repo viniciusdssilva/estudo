@@ -1,0 +1,304 @@
+[
+  {
+    "eval_sample": {
+      "user_input": "Quais informações sobre o Instituto BRF podem ser encontradas no relatório anual de sustentabilidade?",
+      "retrieved_contexts": null,
+      "reference_contexts": [
+        "Sumário\n1. \nApresentação\nRelato e materialidade\nTemas materiais\nMensagem da liderança\n2022 em destaques\n \n3\n4\n7\n8\n10\n \n112\n113\n113\n118\n133\n136\n137\n151\n152\n6.  \nIndicadores e anexo\n Sumário GRI\n Conteúdos \ngerais\n T\nópicos materiais\nSASB\nTCFD\nAnexo\n Carta de asseguração\nInformações corpor\nativas e créditos\n5. \nGeração de valor\nDesempenho do negócio\nFornecedores e cadeia produtiva\nComunidades e impacto social\nInstituto BRF\nBem-estar animal\nGestão ambiental\nEmissões e clima\nRecursos naturais\nResíduos e embalagens\n 4. \nCultura e engajamento\nDesenvolvimento do capital humano\nEducação e capacitação\nSaúde e segurança\nDiversidade, equidade e inclusão\n \n64\n68\n68\n70\n74\n2.  \nNosso jeito de  \nfazer negócios\nPresença global\nPortfólio & marcas\nModelo de negócio\nGovernança corporativa\nÉtica e Compliance\nGestão de riscos e oportunidades\nPrincipais riscos e oportunidades\nQualidade BRF\nResponsabilidade pelo produto\nParceria com clientes e consumidores\nFomento à inovação\nPortfólio e marca"
+      ],
+      "response": null,
+      "multi_responses": null,
+      "reference": "No relatório anual de sustentabilidade, o Instituto BRF é mencionado em relação a temas como bem-estar animal, gestão ambiental, emissões e clima, recursos naturais, e resíduos e embalagens.",
+      "rubrics": null
+    },
+    "synthesizer_name": "single_hop_specifc_query_synthesizer",
+    "approval_status": "rejected"
+  },
+  {
+    "eval_sample": {
+      "user_input": "Quais são os principais tópicos abordados no Relatório Integrado 2022 da BRF, especialmente em relação à gestão de riscos e oportunidades?",
+      "retrieved_contexts": null,
+      "reference_contexts": [
+        "Gestão de riscos e oportunidades\nPrincipais riscos e oportunidades\nQualidade BRF\nResponsabilidade pelo produto\nParceria com clientes e consumidores\nFomento à inovação\nPortfólio e marca\nExcelência e transformação digital\n \n14 \n16\n17\n18\n19\n21\n26\n29\n34\n34\n38\n42\n43\n44\n3. \nNossa estratégia\nAmbiente de negócios e planejamento\nAlocação de capital\nPlano BRF de Sustentabilidade\nCompromissos & resultados\n \n50\n51\n54\n56\n58\n \n76\n77\n86\n91\n91\n96\n102\n103\n107\n110\nClique sobre os \nítens para navegar\n2\nRelatório  \nIntegrado 2022"
+      ],
+      "response": null,
+      "multi_responses": null,
+      "reference": "O Relatório Integrado 2022 da BRF aborda diversos tópicos, incluindo gestão de riscos e oportunidades, qualidade da BRF, responsabilidade pelo produto, parceria com clientes e consumidores, fomento à inovação, portfólio e marca, excelência e transformação digital, além de estratégias relacionadas ao ambiente de negócios e planejamento, alocação de capital, e compromissos e resultados do plano de sustentabilidade.",
+      "rubrics": null
+    },
+    "synthesizer_name": "single_hop_specifc_query_synthesizer",
+    "approval_status": "approved"
+  },
+  {
+    "eval_sample": {
+      "user_input": "Qual é o foco do relatório integrado de 2022 da BRF no Brasil?",
+      "retrieved_contexts": null,
+      "reference_contexts": [
+        "Seja bem-vindo ao  \nRelatório Integrado 2022 \nda BRF!  \nEste relatório está \ndisponível nos idiomas \nportuguês e inglês. \nPara acessar os PDFs, \nclique aqui\nEste documento dá sequência à nossa jornada de comu-\nnicação de resultados, com foco em divulgar aos nossos \nstakeholders projetos, investimentos, estratégias e indi-\ncadores-chave de desempenho nas frentes financeira e \nnão financeira.\nEste relato aborda o período de 1º de janeiro a 31 de \ndezembro de 2022, cobrindo todas as nossas opera-\nções no Brasil e em mercados internacionais (fábricas, \ngranjas, centros de distribuição, inovação, escritórios \ncomerciais e corporativos), mesmas entidades descri-\ntas nas Demonstrações Financeiras. Os indicadores de \nsustentabilidade abrangem vários temas em toda nossa \ncadeia de fornecimento, como qualidade e segurança do \nalimento, bem-estar animal, desenvolvimento do nosso \ncapital humano, ações frente às mudanças climáticas e \nresponsabilidade na cadeia de valor . Quando aplicável,"
+      ],
+      "response": null,
+      "multi_responses": null,
+      "reference": "O relatório integrado de 2022 da BRF foca em divulgar aos stakeholders projetos, investimentos, estratégias e indicadores-chave de desempenho nas frentes financeira e não financeira, cobrindo todas as operações no Brasil e em mercados internacionais.",
+      "rubrics": null
+    },
+    "synthesizer_name": "single_hop_specifc_query_synthesizer",
+    "approval_status": "rejected"
+  },
+  {
+    "eval_sample": {
+      "user_input": "Qual é a importância do SASB no relatório de sustentabilidade?",
+      "retrieved_contexts": null,
+      "reference_contexts": [
+        "alimento, bem-estar animal, desenvolvimento do nosso \ncapital humano, ações frente às mudanças climáticas e \nresponsabilidade na cadeia de valor . Quando aplicável, \nas seções que apresentam dados distintos para empre-\nsas são sinalizadas no texto, e as diferentes abordagens \nsão descritas nas notas de rodapé dos indicadores.\nComo em ciclos anteriores, adotamos como referências \npara este relatório as Normas da Global Reporting Initia-\ntive (GRI), em sua versão mais recente (2021); as diretri-\nzes de Relato Integrado da IFRS Foundation; e os indi-\ncadores do Sustainability Accounting Standards Board \n(SASB). Também referenciamos nossos compromissos \ne ações vinculados aos Objetivos de Desenvolvimento \nSustentável (ODS) e ao Pacto Global das Nações Unidas, \ndo qual somos signatários desde 2007.\nOs dados econômico-financeiros se vinculam às nossas \ndemonstrações financeiras, disponíveis aqui, e seguem os \npadrões brasileiros e as normas do International Financial"
+      ],
+      "response": null,
+      "multi_responses": null,
+      "reference": "O SASB é referenciado no relatório como um dos indicadores utilizados, junto com as Normas da Global Reporting Initiative (GRI) e as diretrizes de Relato Integrado da IFRS Foundation, para apresentar dados distintos para empresas e descrever diferentes abordagens nas notas de rodapé dos indicadores.",
+      "rubrics": null
+    },
+    "synthesizer_name": "single_hop_specifc_query_synthesizer",
+    "approval_status": "rejected"
+  },
+  {
+    "eval_sample": {
+      "user_input": "Quais são as referências de mercado que a B3 considera em relação aos dados econômico-financeiros?",
+      "retrieved_contexts": null,
+      "reference_contexts": [
+        "Os dados econômico-financeiros se vinculam às nossas \ndemonstrações financeiras, disponíveis aqui, e seguem os \npadrões brasileiros e as normas do International Financial \nReporting Standards (IFRS), conforme padrões da Co-\nmissão de Valores Mobiliários (CVM) e da Securities and \nExchange Commission (SEC) norte-americana. Revisões \nde informações pontuais dos indicadores e variações de \nescopo são detalhadas em notas de rodapé. Os dados \nforam assegurados por auditoria externa independente, a \nKPMG, e aprovados pela Diretoria Executiva e pelo Conse-\nlho de Administração.\nOutras referências de mercado que consideramos são \nos requisitos de índices como o de Sustentabilidade \nEmpresarial (ISE), da bolsa brasileira (B3), e o Dow Jones \nGRI 2-2, 2-3, 2-4, 2-5, 2-14 Sustainability Index (DJSI), da Bolsa de Nova York; e os \ncritérios da Associação Brasileira das Companhias Abertas \n(Abrasca). Nossa liderança assume responsabilidade por"
+      ],
+      "response": null,
+      "multi_responses": null,
+      "reference": "A B3 considera os requisitos de índices como o de Sustentabilidade Empresarial (ISE) e o Dow Jones GRI 2-2, 2-3, 2-4, 2-5, 2-14 Sustainability Index (DJSI), além dos critérios da Associação Brasileira das Companhias Abertas (Abrasca).",
+      "rubrics": null
+    },
+    "synthesizer_name": "single_hop_specifc_query_synthesizer",
+    "approval_status": "approved"
+  },
+  {
+    "eval_sample": {
+      "user_input": "Qual é a importância da Abrasca no relatório de sustentabilidade?",
+      "retrieved_contexts": null,
+      "reference_contexts": [
+        "critérios da Associação Brasileira das Companhias Abertas \n(Abrasca). Nossa liderança assume responsabilidade por \neste relatório e o aprova, assim como se empenha para a \ncorreta aplicação do pensamento integrado na concepção \ne estruturação do documento. \nA estrutura do relato busca traduzir nossa visão estra-\ntégica e os temas-chave na percepção dos públicos de \nrelacionamento – incluindo fornecedores, colaboradores, \nliderança, clientes, consumidores, comunidades e órgãos \nreguladores –, identificados em um novo processo de ma-\nterialidade. Também expressa os compromissos e pilares \ndo Plano BRF de Sustentabilidade, com seus resultados \nconcretos descritos no capítulo de mesmo nome.\nBuscamos construir relações pautadas por nossos com-\npromissos de Integridade, Qualidade e Segurança, tendo \nneste relatório um importante instrumento de prestação \nde contas. Caso tenha dúvidas, sugestões ou apontamen-\ntos sobre o conteúdo do Relatório Integrado 2022, entre"
+      ],
+      "response": null,
+      "multi_responses": null,
+      "reference": "A Abrasca estabelece critérios que são fundamentais para a elaboração do relatório de sustentabilidade, garantindo que a liderança assuma responsabilidade e que o documento reflita a visão estratégica e os temas-chave para os diversos públicos de relacionamento.",
+      "rubrics": null
+    },
+    "synthesizer_name": "single_hop_specifc_query_synthesizer",
+    "approval_status": "rejected"
+  },
+  {
+    "eval_sample": {
+      "user_input": "Como posso entrar em contato para esclarecer dúvidas sobre o Relatório Integrado 2022 da BRF?",
+      "retrieved_contexts": null,
+      "reference_contexts": [
+        "neste relatório um importante instrumento de prestação \nde contas. Caso tenha dúvidas, sugestões ou apontamen-\ntos sobre o conteúdo do Relatório Integrado 2022, entre \nem contato pelo e-mail acoes@brf.com ou por telefone: \n(55 11) 2322-5377.\nTenha uma ótima leitura!\nNosso jeito de \nfazer negócios\nNossa estratégia\nCultura e  \nengajamento\nGeração de valor\nIndicadores  \ne anexo\n3\n3\n4\n5\n6\n2\n1\nRelatório  \nIntegrado 2022\nApresentação"
+      ],
+      "response": null,
+      "multi_responses": null,
+      "reference": "Para esclarecer dúvidas, sugestões ou apontamentos sobre o conteúdo do Relatório Integrado 2022, você pode entrar em contato pelo e-mail acoes@brf.com ou por telefone: (55 11) 2322-5377.",
+      "rubrics": null
+    },
+    "synthesizer_name": "single_hop_specifc_query_synthesizer",
+    "approval_status": "rejected"
+  },
+  {
+    "eval_sample": {
+      "user_input": "O que é Dupla Materialidade?",
+      "retrieved_contexts": null,
+      "reference_contexts": [
+        "Relato e materialidade   \nGRI 2-29, 3-1, 3-2\nEm linha com as Normas GRI e com as melhores prá-\nticas de relato e engajamento de stakeholders, atua-\nlizamos a nossa Matriz de Materialidade, utilizando a \nmetodologia de Dupla Materialidade. \nA perspectiva de dupla materialidade considera um \nolhar integrativo sobre os impactos gerados pelo ne-\ngócio na sociedade e no ambiente e, também, sobre \naspectos externos com poder de influência sobre \nnosso processo de criação de valor .\nPara isso, foram identificados stakeholders, responsá-\nveis por sinalizar e apoiar o processo de refinamento \nda lista de tópicos, processo sucedido por etapas de \npriorização de temas, análise e validação.\nMaterialidade BRF: variáveis analisadas\nImpacto socioambiental\n• tópico: impactos sociais e ambientais do negócio\n•  investimento numa perspectiva de especialistas \n(internos e externos)\n• avaliação de \nmagnitude e escopo\nImpacto financeiro\n•  tópico: riscos e vias de impactos  \nfinanceir\nos no negócio"
+      ],
+      "response": null,
+      "multi_responses": null,
+      "reference": "A Dupla Materialidade considera um olhar integrativo sobre os impactos gerados pelo negócio na sociedade e no ambiente, além de aspectos externos que influenciam o processo de criação de valor.",
+      "rubrics": null
+    },
+    "synthesizer_name": "single_hop_specifc_query_synthesizer",
+    "approval_status": "approved"
+  },
+  {
+    "eval_sample": {
+      "user_input": "Quais foram as principais atividades realizadas na análise de materialidade financeira da BRF?",
+      "retrieved_contexts": null,
+      "reference_contexts": [
+        "Análise de contextos e identificação:  \npromovemos análises de documentos seto-\nriais, estudos, publicações e políticas corpo-\nrativas internas. \nRealização de consultas (priorização):  \nem seguida, levantamos perspectivas de impacto socioam-\nbiental e financeiro, bem como sobre a relevância dos temas \npara os públicos. Para isso, fizemos três agrupamentos para \no processo de consulta aos públicos. O primeiro foi voltado \nà análise da materialidade financeira, com 9 entrevistas \ncom lideranças da BRF, 5 com investidores e instituições \nfinanceiras e 23 participações na consulta on-line; tivemos \ntambém 6 reuniões de trabalho com gerentes e especialis-\ntas, nas quais avaliamos para cada tema a probabilidade \nPasso a passo\n1\nONGs / \nterceiro setor\nprovedores \nde capital\nintegrados\nfornecedores e  \nprestadores de serviço\nclientes\nde ocorrência dos riscos levantados e a magnitude dos \nimpactos financeiros associados. O segundo foi voltado"
+      ],
+      "response": null,
+      "multi_responses": null,
+      "reference": "Na análise de materialidade financeira da BRF, foram realizadas 9 entrevistas com lideranças da empresa, 5 com investidores e instituições financeiras, além de 23 participações na consulta on-line. Também ocorreram 6 reuniões de trabalho com gerentes e especialistas, onde foram avaliados os temas em relação à probabilidade de ocorrência dos riscos levantados e à magnitude dos impactos financeiros associados.",
+      "rubrics": null
+    },
+    "synthesizer_name": "single_hop_specifc_query_synthesizer",
+    "approval_status": "rejected"
+  },
+  {
+    "eval_sample": {
+      "user_input": "Quais foram as fontes de informação consultadas pelos clientes no relatório integrado de 2022?",
+      "retrieved_contexts": null,
+      "reference_contexts": [
+        "provedores \nde capital\nintegrados\nfornecedores e  \nprestadores de serviço\nclientes\nde ocorrência dos riscos levantados e a magnitude dos \nimpactos financeiros associados. O segundo foi voltado \nà materialidade socioambiental, com 6 entrevistas com \nespecialistas externos e 77 participações de especialis-\ntas internos e externos na consulta on-line. No terceiro \nagrupamento, voltado à percepção de relevância, foram \ncoletadas outras 3.006 respostas à consulta digital por \nclientes, fornecedores, prestadores de serviço, funcioná-\nrios, integrados, ONGs, imprensa e associações setoriais.  \n2\nimprensa\nfuncionários\nNosso jeito de \nfazer negócios\nNossa estratégia\nCultura e  \nengajamento\nGeração de valor\nIndicadores  \ne anexo\n3\n5\n4\n5\n6\n2\nApresentação1\nRelatório  \nIntegrado 2022"
+      ],
+      "response": null,
+      "multi_responses": null,
+      "reference": "No relatório integrado de 2022, foram coletadas 3.006 respostas à consulta digital por clientes, fornecedores, prestadores de serviço, funcionários, integrados, ONGs, imprensa e associações setoriais.",
+      "rubrics": null
+    },
+    "synthesizer_name": "single_hop_specifc_query_synthesizer",
+    "approval_status": "rejected"
+  },
+  {
+    "eval_sample": {
+      "user_input": "Qual é o papel do Comitê Executivo de Sustentabilidade na validação dos temas prioritários?",
+      "retrieved_contexts": null,
+      "reference_contexts": [
+        "Definição dos temas,  \nanálise e ponderação:  \nconsiderando insumos da etapa anterior , \nmapeamos os principais tópicos financei-\nros, ambientais, sociais e de governança \n(EESG, na sigla em inglês) considerando \nimpacto e relevância. Os resultados da \nconsulta foram ponderados de acordo com \n3\nStakeholders\n   Liderança BRF \n   Investidores + Bancos\n   Especialistas internos\n   Especialistas externos\n  Clientes\n   Fornecedor es + \nFornecedores de grãos \n+ Prestadores de serviço\n   Integrados\n   ONGs + Associações  \nsetoriais + imprensa\n*Relevância para os stakeholders\nC\nA\nE\nB\nE\nMaterialidade financeira\nF\nH\nG\nX\nY\nMaterialidade de impacto\nI\nZ*\nValidação:  \na listagem final de temas prioritários, consolidados \nsob a forma de 9 assuntos, foi submetida a um \nprocesso de validação pelo Comitê Executivo de \nSustentabilidade, o Comitê Executivo e o Comitê de \nSustentabilidade do Conselho de Administração.\nConheça a seguir a \nmaterialidade atual \nda BRF e sua conexão \ncom os Objetivos de"
+      ],
+      "response": null,
+      "multi_responses": null,
+      "reference": "O Comitê Executivo de Sustentabilidade teve um papel crucial na validação, pois a listagem final de temas prioritários foi submetida a um processo de validação por este comitê, além do Comitê Executivo e do Comitê de Sustentabilidade do Conselho de Administração.",
+      "rubrics": null
+    },
+    "synthesizer_name": "single_hop_specifc_query_synthesizer",
+    "approval_status": "rejected"
+  },
+  {
+    "eval_sample": {
+      "user_input": "Quais são os impactos financeiros destacados no relatório integrado de 2022 da BRF?",
+      "retrieved_contexts": null,
+      "reference_contexts": [
+        "Sustentabilidade, o Comitê Executivo e o Comitê de \nSustentabilidade do Conselho de Administração.\nConheça a seguir a \nmaterialidade atual \nda BRF e sua conexão \ncom os Objetivos de \nDesenvolvimento Sustentável \n(ODS), com o Plano e com \nnossos desafios de negócio \na natureza dos públicos e representados \nem gráfico para identificação dos temas \nmateriais. Com isso, foi possível evidenciar \na relevância, criticidade e magnitude de \ncada tópico em termos de impactos finan-\nceiros e socioambientais.\n4\nNosso jeito de \nfazer negócios\nNossa estratégia\nCultura e  \nengajamento\nGeração de valor\nIndicadores  \ne anexo\n3\n6\n4\n5\n6\n2\nApresentação1\nRelatório  \nIntegrado 2022"
+      ],
+      "response": null,
+      "multi_responses": null,
+      "reference": "O relatório integrado de 2022 da BRF evidencia a relevância, criticidade e magnitude de cada tópico em termos de impactos financeiros e socioambientais.",
+      "rubrics": null
+    },
+    "synthesizer_name": "single_hop_specifc_query_synthesizer",
+    "approval_status": "rejected"
+  },
+  {
+    "eval_sample": {
+      "user_input": "Quais são os temas materiais que a BRF considera relevantes em seus relatórios anuais de sustentabilidade, especialmente em relação à segurança alimentar?",
+      "retrieved_contexts": null,
+      "reference_contexts": [
+        "Temas materiais* GRI 3-1, 3-2\n* Os temas se aplicam dentro e fora da Companhia. Houve alteração em relação à lista de temas materiais do ciclo de 2021. Eram eles: Mudança do clima, água e energia; Bem-estar animal; Desenvolvimento humano e organizacional; Ética e transparência; \nDesperdício de alimentos; Embalagem e reciclabilidade; Segurança do alimento; e Biodiversidade; Responsabilidade Social; e Inovação e tecnologia.\n** O tema de relacionamento com a comunidade de entorno continua como um tema relevante para a BRF, embora não tenha sido incluído na materialidade atual, em função do cenário global e interno e do ganho de relevância de tópicos como segurança alimentar . \nTema Olhar & abordagem Indicadores relacionados ODS relacionados\nSegurança alimentar\nAbrange os eixos de acesso e combate ao desperdício, com oportunidade de \nposicionamento em um dos grandes desafios globais de nosso setor\nGRI FP6, FP7, FP10, FP11, FP12, FP13\nSASB FB-MP-250A.1, SASB FB-MP-250A.2, SASB FB-MP-"
+      ],
+      "response": null,
+      "multi_responses": null,
+      "reference": "Os temas materiais que a BRF considera relevantes incluem Mudança do clima, água e energia; Bem-estar animal; Desenvolvimento humano e organizacional; Ética e transparência; Desperdício de alimentos; Embalagem e reciclabilidade; Segurança do alimento; e Biodiversidade; Responsabilidade Social; e Inovação e tecnologia. Embora o tema de relacionamento com a comunidade de entorno não esteja incluído na materialidade atual, ele continua sendo relevante devido ao cenário global e interno, especialmente em relação à segurança alimentar.",
+      "rubrics": null
+    },
+    "synthesizer_name": "single_hop_specifc_query_synthesizer",
+    "approval_status": "rejected"
+  },
+  {
+    "eval_sample": {
+      "user_input": "O que GRI FP7 envolve?",
+      "retrieved_contexts": null,
+      "reference_contexts": [
+        "posicionamento em um dos grandes desafios globais de nosso setor\nGRI FP6, FP7, FP10, FP11, FP12, FP13\nSASB FB-MP-250A.1, SASB FB-MP-250A.2, SASB FB-MP-\n250A.3, SASB FB-MP-250A.4\n2.1, 2.2 e 2.4; 12.3; 16.6 \ne 16.10\nQualidade e segurança \ndos produtos\nEnvolve a aderência a protocolos e certificações, melhorias e tratamento de riscos \nsanitários relevantes GRI 416-1, 416-2, 417-1, 417-2, 417-3, FP1, FP2, FP5,FP6, FP7 16.6 e 16.10\nDireitos humanos e \nrelações trabalhistas\nAbrange o respeito à legislação trabalhista e cumprimento das leis vigentes, além de \ntratativas de casos de ações e transparência em negociações coletivas GRI 401-3, 405-1, 405-2 8.3, 8.5, 8.7 e 8.8\nÉtica, integridade e \ncompliance\nRelaciona-se à conformidade com normas, leis e práticas anticorrupção e antissuborno, \npromoção do Manual de Transparência e fortalecimento da imagem de nosso negócio\nGRI 201-4, 205-1, 205-2, 205-3, 206-1, 207-1, 207-2, 415-1, \n418-1 16.5, 16.6, 16.7 e 16.10\nBem-estar animal"
+      ],
+      "response": null,
+      "multi_responses": null,
+      "reference": "GRI FP7 envolve a qualidade e segurança dos produtos, incluindo a aderência a protocolos e certificações, melhorias e tratamento de riscos sanitários relevantes.",
+      "rubrics": null
+    },
+    "synthesizer_name": "single_hop_specifc_query_synthesizer",
+    "approval_status": "rejected"
+  },
+  {
+    "eval_sample": {
+      "user_input": "Quais são as referências do SASB mencionadas no contexto relacionado ao bem-estar animal e à saúde dos colaboradores?",
+      "retrieved_contexts": null,
+      "reference_contexts": [
+        "promoção do Manual de Transparência e fortalecimento da imagem de nosso negócio\nGRI 201-4, 205-1, 205-2, 205-3, 206-1, 207-1, 207-2, 415-1, \n418-1 16.5, 16.6, 16.7 e 16.10\nBem-estar animal\nEnvolve aderências a certificações e protocolos internacionais de bem-estar em toda a \ncadeia e as práticas do Programa Bem-estar animal da BRF (da criação ao abate)\nGRI FP10, FP11, FP12, FP13 \nSASB FB-MP-260A.1, SASB-FB-MP-410A.1, SASB FB-MP-\n410A.2, SASB-FB-MP-410A.3\n2.5\nSaúde, bem-estar e \nsegurança\nAbrange a garantia do bem-estar e da saúde de nossas pessoas, prezando pela saúde \nmental e física de colaboradores e produtores integrados\nGRI 403-1, 403-2, 403-3, 403-4, 403-5, 403-6, 403-7, 403-8, \n403-9, 403-10\nSASB-FB-MP-320a.1, SASB FB-MP-320A.2\n3.4, 3.9; 8.8\nAtração, \ndesenvolvimento \ne retenção de \ncolaboradores\nAbrange nossas ações para fortalecer a imagem de marca empregadora e incentivar \na construção de carreiras na Companhia, combatendo absenteísmo e rotatividade de \ncolaboradores"
+      ],
+      "response": null,
+      "multi_responses": null,
+      "reference": "As referências do SASB mencionadas no contexto incluem SASB FB-MP-260A.1, SASB-FB-MP-410A.1, SASB FB-MP-410A.2, SASB-FB-MP-410A.3 para o bem-estar animal, e SASB-FB-MP-320a.1, SASB FB-MP-320A.2 para a saúde, bem-estar e segurança dos colaboradores.",
+      "rubrics": null
+    },
+    "synthesizer_name": "single_hop_specifc_query_synthesizer",
+    "approval_status": "approved"
+  },
+  {
+    "eval_sample": {
+      "user_input": "Quais são os padrões SASB mencionados no contexto?",
+      "retrieved_contexts": null,
+      "reference_contexts": [
+        "colaboradores\nAbrange nossas ações para fortalecer a imagem de marca empregadora e incentivar \na construção de carreiras na Companhia, combatendo absenteísmo e rotatividade de \ncolaboradores\nGRI 401-1, 401-2, 404-1, 404-2, 404-3 8.5\nGestão, transparência \ne rastreabilidade da \ncadeia de fornecedores\nEnvolve a garantia de rastreabilidade na cadeia de grãos, o fomento a boas práticas ao \nlongo da cadeia de valor e boas práticas em gestão da biodiversidade\nGRI 204-1, 301-1, 301-3, 308-1, 208-2, 407-1, 408-1, 409-1, \n414-1, 414-2, FP1, FP2, FP5\nSASB FB-MP-160A.1, SASB FB-MP-160A.2, SASB FB-MP-\n160A.3, SASB-FB-MP-430a.1, SASB-FB-MP-430a.2\n2.3; 2.4; 2.a; 2.c; 8.5; 8.7; \n8.8; 12.2; 12.3; 12.4; 12.5; \n12.7; 12.8; 13.3; 13.b; \n15.1; 15.2; 15.3; 15.5; \n15.9; 15.a; 15.b\nMudança do clima, \nágua e energia\nEnvolve a eficiência no uso de recursos naturais nos preparando para diferentes cenários \nclimáticos e de alteração da disponibilidade de recursos, bem como das ações em curso"
+      ],
+      "response": null,
+      "multi_responses": null,
+      "reference": "Os padrões SASB mencionados no contexto incluem SASB FB-MP-160A.1, SASB FB-MP-160A.2, SASB FB-MP-160A.3, SASB-FB-MP-430a.1 e SASB-FB-MP-430a.2.",
+      "rubrics": null
+    },
+    "synthesizer_name": "single_hop_specifc_query_synthesizer",
+    "approval_status": "rejected"
+  },
+  {
+    "eval_sample": {
+      "user_input": "Quais são os principais aspectos abordados pelo TCFD?",
+      "retrieved_contexts": null,
+      "reference_contexts": [
+        "água e energia\nEnvolve a eficiência no uso de recursos naturais nos preparando para diferentes cenários \nclimáticos e de alteração da disponibilidade de recursos, bem como das ações em curso \npara atingirmos nossos compromissos públicos ambientais e estendermos boas práticas \npara os demais elos da cadeia \nGRI 201-2, 302-1, 302-2, 302-3, 302-4, 303-1, 303-2, 303-3, \n303-4, 303-5, 304-1, 305-1, 305-2, 305-3, 305-4, 305-5, 305-6, \n305-7, 306-1, 306-2, 306-3, 306-4, 306-5\nSASB-FB-MP-110a.1, SASB-FB-MP-110a.2, SASB-FB-MP-\n130a.1, SASB-FB-MP-140a.1, SASB-FB-MP-140a.2, SASB \nFB-MP-140A.3, SASB-FB-MP-440a.1, SASB-FB-MP-440a.2, \nSASB-FB-MP-440a.3\nTCFD-2.A, TCFD-2.B, TCDF-2.C, TCFD-3.C, TCFD-4-B\n2.4; 6.3, 6.4, 6.5 e 6.6; 7.2, \n7.3;  9.4; 12.2; 13.1, 13.2\nNosso jeito de \nfazer negócios\nNossa estratégia\nCultura e  \nengajamento\nGeração de valor\nIndicadores  \ne anexo\n3\n7\n4\n5\n6\n2\nApresentação1\nRelatório  \nIntegrado 2022"
+      ],
+      "response": null,
+      "multi_responses": null,
+      "reference": "O TCFD aborda a eficiência no uso de recursos naturais, preparando as empresas para diferentes cenários climáticos e alterações na disponibilidade de recursos, além das ações em curso para atingir compromissos públicos ambientais e estender boas práticas para os demais elos da cadeia.",
+      "rubrics": null
+    },
+    "synthesizer_name": "single_hop_specifc_query_synthesizer",
+    "approval_status": "rejected"
+  },
+  {
+    "eval_sample": {
+      "user_input": "Como a guerra da Ucrânia impactou a BRF em 2022 e quais foram as ações tomadas pela companhia?",
+      "retrieved_contexts": null,
+      "reference_contexts": [
+        "Mensagem da liderança GRI 2-22\n2022 foi um ano de intensa transformação para a BRF. A \nCompanhia iniciou o período sob os impactos de rele-\nvantes fatores geopolíticos globais, como a guerra da \nUcrânia, as incertezas econômicas e a volatilidade do \nmercado. A partir de março, com a formação do novo \nConselho de Administração, demos início a um diagnósti-\nco profundo e cuidadoso em nosso negócio. Ainda que os \nresultados financeiros do ano não expressem o potencial \nmáximo da BRF, conseguimos avançar nos fundamentos \nque pavimentarão, de maneira sólida, um novo capítulo \nna história da Companhia. E isso não seria possível sem \na dedicação das quase 100 mil pessoas que trabalham \ntodos os dias conosco. Com muita disciplina na execução, \nagilidade, simplicidade e eficiência, estamos certos de \nque iremos retomar nossa eficiência e rentabilidade.\nUm dos primeiros passos da nova jornada foi direcio-\nnar todos os esforços internos ao core business da BRF"
+      ],
+      "response": null,
+      "multi_responses": null,
+      "reference": "Em 2022, a BRF enfrentou impactos significativos devido a fatores geopolíticos globais, como a guerra da Ucrânia, que contribuíram para incertezas econômicas e volatilidade do mercado. A partir de março, com a formação de um novo Conselho de Administração, a companhia iniciou um diagnóstico profundo e cuidadoso em seu negócio, buscando avançar nos fundamentos que pavimentariam um novo capítulo na história da empresa.",
+      "rubrics": null
+    },
+    "synthesizer_name": "single_hop_specifc_query_synthesizer",
+    "approval_status": "rejected"
+  },
+  {
+    "eval_sample": {
+      "user_input": "Qual foi o valor capturado pela BRF em seu plano de eficiência e como isso se relaciona com a recuperação de performance?",
+      "retrieved_contexts": null,
+      "reference_contexts": [
+        "<1-hop>\n\nque iremos retomar nossa eficiência e rentabilidade.\nUm dos primeiros passos da nova jornada foi direcio-\nnar todos os esforços internos ao core business da BRF \npor meio de um robusto plano de eficiência. Tomamos \ndiversas medidas, ao longo de toda cadeia de valor , bus-\ncando otimizar a alocação de capital, de forma criteriosa \ne disciplinada. Por meio de melhoria nos indicadores \noperacionais, redução de custos com ociosidade e com \na simplificação de portfólio de inovação, tivemos, de \nsetembro a dezembro, uma captura de R$ 210 milhões, \nsempre norteados pelos nossos três compromissos ine-\ngociáveis de Segurança, Qualidade e Integridade. \nNo fechamento do ano, a receita líquida da Compa-\nnhia chegou a R$ 53,8 bilhões em 2022, aumento de \n11,3% em relação ao ano anterior , com contribuição \ndas nossas medidas para crescer em produtos de valor \nagregado e ampliar nossa presença nos mercados \ninternacionais. Para incrementar resultados no Brasil,",
+        "<2-hop>\n\nque impactamos, abrangendo os quesitos \neconômicos, ambientais, sociais e de \ngovernança (EESG).\nDesempenho  \ndo negócio\n \nAssumimos o compromisso com acionistas, investido-\nres e sociedade de recuperar os patamares de perfor-\nmance históricos da Companhia. Em 2022, a partir de \num diagnóstico profundo e cuidadoso de nosso negó-\ncio, definimos um plano de eficiência, que, implemen-\ntado a partir do terceiro trimestre, capturou R$ 210 \nmilhões no fechamento do ano.\nComo parte desse plano, iniciado sob a nova estrutura \nacionária e governança da BRF, adotamos fundamen-\ntos de simplicidade, agilidade e eficiência. Revisitamos \nnosso footprint global, ajustamos nosso portfólio de \nprodutos, otimizamos nosso Capex e nos empenha-\nmos, ainda, em maximizar o aproveitamento de ativos, \ncontrolar a alavancagem e aprimorar nossa gestão de \nsuprimentos.\nCapturamos cerca de R$ 130 milhões com a melhoria \nde indicadores operacionais, como mortalidade, con-"
+      ],
+      "response": null,
+      "multi_responses": null,
+      "reference": "A BRF capturou R$ 210 milhões em seu plano de eficiência, que foi implementado a partir do terceiro trimestre de 2022. Esse valor é parte do compromisso da Companhia em recuperar os patamares de performance históricos, abrangendo medidas que visam otimizar a alocação de capital e melhorar indicadores operacionais.",
+      "rubrics": null
+    },
+    "synthesizer_name": "multi_hop_specific_query_synthesizer",
+    "approval_status": "approved"
+  },
+  {
+    "eval_sample": {
+      "user_input": "Quais são os números de contato do Canal de Transparência para o Chile e como a situação sanitária no Chile pode impactar o Brasil?",
+      "retrieved_contexts": null,
+      "reference_contexts": [
+        "<1-hop>\n\nsaber mais detalhes sobre a governança do tema, acesse o \nRelatório de Transparência aqui).\nEm 2022, foram registrados e tratados os casos ao lado.\nDenúncias registradas 2019 2020 2021 2022\nFraude envolvendo clientes 70 84 93 69\nDiscriminação 35 46 55 76\nRoubo, furto ou desvio 66 60 63 45\nFraude envolvendo fornecedores 119 100 113 89\nAssédio 125 354 465 564\nOutros 1.242 2.008 2.367 2.495\nCasos encerrados – 2022 Procedentes Improcedentes Total\nComportamental 689 2.373 3.062\nFraude 247 532 779\nTotal 936 2.905 3.841\nTratativas 2019 2020 2021 2022\nSanções 172172 252252 317317 301301\nAdvertência 86 121 198 210\nDemissão 82 116 111 81\nSuspensão 4 15 8 10\nContatos do  \nCanal de Transparência  \npor mercado\nÁfrica do Sul: 080 098 0081\nArábia Saudita: 800 814 7002\nÁustria: 0800 281118\nBrasil: 0800 450 0000\nCatar: 00800 100 879\nChile: 1230 020 6846\nChina:  10 800 713 1499(N) \n10 800 130 1430(S)\nEmir\nados Árabes Unidos:  \n800 0320778\nJapão: 0800 222 2090\nKuwait: 965 2227 9505\nOmã: 800 74471",
+        "<2-hop>\n\npor nossos produtos. Além disso, surtos de doenças \nanimais exóticas no Brasil podem resultar em ações \ngovernamentais estrangeiras para fechar mercados  \nde exportação.\nComo gerenciamos?  \nNo campo global, a perspectiva sanitária ainda impõe \nriscos de embargos. A peste suína africana em alguns \npaíses das Américas traz consigo o risco de fechamento \nde mercados em caso de surto no território brasileiro. \nEspecialmente nos últimos meses de 2022 e no início de \n2023, a região das Américas viu um aumento nos casos \nde influenza aviária em países como Canadá, Estados \nUnidos, México, Argentina, Uruguai, Colômbia, Chile, \nVenezuela e Peru. Não há certeza de como os mercados \nreagirão a eventuais casos positivos confirmados no \nterritório brasileiro, mas é importante salientar que o país \nsegue livre da doença.\nQuais as oportunidades?  \nA qualidade e segurança do alimento são ativos inegociá-\nveis que integram nossa estratégia e o sistema de gestão"
+      ],
+      "response": null,
+      "multi_responses": null,
+      "reference": "O número de contato do Canal de Transparência para o Chile é 1230 020 6846. Além disso, a situação sanitária no Chile, especialmente com surtos de doenças como a influenza aviária, pode impactar o Brasil, pois a perspectiva sanitária impõe riscos de embargos e fechamento de mercados de exportação, caso haja surtos confirmados no território brasileiro.",
+      "rubrics": null
+    },
+    "synthesizer_name": "multi_hop_specific_query_synthesizer",
+    "approval_status": "rejected"
+  }
+]
