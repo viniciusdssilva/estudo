@@ -1,0 +1,15 @@
+{"time":"2025-02-22T01:10:40.593665-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/vinicius/code/estudo/teste/wandb/run-20250222_011040-88s7wrat/logs/debug-core.log"}
+{"time":"2025-02-22T01:10:41.209809-03:00","level":"INFO","msg":"created new stream","id":"88s7wrat"}
+{"time":"2025-02-22T01:10:41.209855-03:00","level":"INFO","msg":"stream: started","id":"88s7wrat"}
+{"time":"2025-02-22T01:10:41.209895-03:00","level":"INFO","msg":"handler: started","stream_id":"88s7wrat"}
+{"time":"2025-02-22T01:10:41.209886-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"88s7wrat"}
+{"time":"2025-02-22T01:10:41.210152-03:00","level":"INFO","msg":"sender: started","stream_id":"88s7wrat"}
+{"time":"2025-02-22T01:10:41.525033-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-22T01:10:41.771967-03:00","level":"INFO","msg":"stream: closing","id":"88s7wrat"}
+{"time":"2025-02-22T01:10:41.77223-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-22T01:10:41.772706-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-22T01:10:43.226407-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-22T01:10:43.449751-03:00","level":"INFO","msg":"handler: closed","stream_id":"88s7wrat"}
+{"time":"2025-02-22T01:10:43.449814-03:00","level":"INFO","msg":"sender: closed","stream_id":"88s7wrat"}
+{"time":"2025-02-22T01:10:43.449802-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"88s7wrat"}
+{"time":"2025-02-22T01:10:43.450335-03:00","level":"INFO","msg":"stream: closed","id":"88s7wrat"}

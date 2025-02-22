@@ -1,0 +1,16 @@
+{
+  "os":  "macOS-15.3.1-arm64-arm-64bit-Mach-O",
+  "python":  "CPython 3.13.2",
+  "startedAt":  "2025-02-22T04:10:40.592226Z",
+  "program":  "/Users/vinicius/code/estudo/teste/teste2.py",
+  "codePath":  "teste/teste2.py",
+  "git":  {
+    "remote":  "https://github.com/viniciusdssilva/estudo",
+    "commit":  "4c9648086cc640bb693f61c20ff39a3ef698ebb6"
+  },
+  "email":  "vinicius.silva@outlook.com",
+  "root":  "/Users/vinicius/code/estudo/teste",
+  "host":  "192.168.68.54",
+  "executable":  "/Users/vinicius/code/estudo/teste/.venvTeste/bin/python",
+  "codePathLocal":  "teste2.py"
+}

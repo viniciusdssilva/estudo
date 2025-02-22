@@ -1,0 +1,43 @@
+{
+  "os":  "macOS-15.3.1-arm64-arm-64bit-Mach-O",
+  "python":  "CPython 3.13.2",
+  "startedAt":  "2025-02-22T04:49:35.915264Z",
+  "program":  "/Users/vinicius/code/estudo/teste/teste4.py",
+  "codePath":  "teste/teste4.py",
+  "git":  {
+    "remote":  "https://github.com/viniciusdssilva/estudo",
+    "commit":  "4c9648086cc640bb693f61c20ff39a3ef698ebb6"
+  },
+  "email":  "vinicius.silva@outlook.com",
+  "root":  "/Users/vinicius/code/estudo/teste",
+  "host":  "192.168.68.54",
+  "executable":  "/Users/vinicius/code/estudo/teste/.venvTeste/bin/python",
+  "codePathLocal":  "teste4.py",
+  "cpu_count":  16,
+  "cpu_count_logical":  16,
+  "disk":  {
+    "/":  {
+      "total":  "994662584320",
+      "used":  "523756437504"
+    },
+    "/System/Volumes/Data":  {
+      "total":  "994662584320",
+      "used":  "523756437504"
+    }
+  },
+  "memory":  {
+    "total":  "68719476736"
+  },
+  "cpu":  {
+    "count":  16,
+    "countLogical":  16
+  },
+  "apple":  {
+    "name":  "Apple M4 Max",
+    "ecpuCores":  4,
+    "pcpuCores":  12,
+    "gpuCores":  40,
+    "memoryGb":  64,
+    "ramTotalBytes":  "68719476736"
+  }
+}

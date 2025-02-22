@@ -1,0 +1,15 @@
+{"time":"2025-02-22T01:49:35.916911-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/vinicius/code/estudo/teste/wandb/run-20250222_014935-c9yw10mk/logs/debug-core.log"}
+{"time":"2025-02-22T01:49:36.025173-03:00","level":"INFO","msg":"created new stream","id":"c9yw10mk"}
+{"time":"2025-02-22T01:49:36.025205-03:00","level":"INFO","msg":"stream: started","id":"c9yw10mk"}
+{"time":"2025-02-22T01:49:36.025208-03:00","level":"INFO","msg":"handler: started","stream_id":"c9yw10mk"}
+{"time":"2025-02-22T01:49:36.025226-03:00","level":"INFO","msg":"sender: started","stream_id":"c9yw10mk"}
+{"time":"2025-02-22T01:49:36.025233-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"c9yw10mk"}
+{"time":"2025-02-22T01:49:36.388866-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-22T02:28:34.880038-03:00","level":"INFO","msg":"stream: closing","id":"c9yw10mk"}
+{"time":"2025-02-22T02:28:34.880168-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-22T02:28:34.880467-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-22T02:28:37.095548-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-22T02:28:37.412213-03:00","level":"INFO","msg":"handler: closed","stream_id":"c9yw10mk"}
+{"time":"2025-02-22T02:28:37.412231-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"c9yw10mk"}
+{"time":"2025-02-22T02:28:37.412316-03:00","level":"INFO","msg":"sender: closed","stream_id":"c9yw10mk"}
+{"time":"2025-02-22T02:28:37.412764-03:00","level":"INFO","msg":"stream: closed","id":"c9yw10mk"}

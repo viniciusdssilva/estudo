@@ -1,0 +1,16 @@
+{"time":"2025-02-22T02:36:51.422373-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/vinicius/code/estudo/teste/wandb/run-20250222_023651-zonulefh/logs/debug-core.log"}
+{"time":"2025-02-22T02:36:51.530317-03:00","level":"INFO","msg":"created new stream","id":"zonulefh"}
+{"time":"2025-02-22T02:36:51.530351-03:00","level":"INFO","msg":"stream: started","id":"zonulefh"}
+{"time":"2025-02-22T02:36:51.530372-03:00","level":"INFO","msg":"handler: started","stream_id":"zonulefh"}
+{"time":"2025-02-22T02:36:51.53039-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"zonulefh"}
+{"time":"2025-02-22T02:36:51.530376-03:00","level":"INFO","msg":"sender: started","stream_id":"zonulefh"}
+{"time":"2025-02-22T02:36:51.99258-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-22T02:36:56.146164-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-22T02:36:56.147128-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-22T02:36:57.152274-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/html/faithfulness Heatmap_2_116f50bc6f45e05ab4a9.html","runtime_seconds":1.613629125,"progress":"4.4MB/4.4MB"},{"desc":"uploading media/html/answer_relevancy Heatmap_3_e3410edb40244dab7064.html","runtime_seconds":0.795309375,"progress":"1.1MB/4.4MB"}],"total_operations":2}}
+{"time":"2025-02-22T02:36:58.442895-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-22T02:36:59.717243-03:00","level":"INFO","msg":"stream: closing","id":"zonulefh"}
+{"time":"2025-02-22T02:36:59.717374-03:00","level":"INFO","msg":"handler: closed","stream_id":"zonulefh"}
+{"time":"2025-02-22T02:36:59.717406-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zonulefh"}
+{"time":"2025-02-22T02:36:59.71745-03:00","level":"INFO","msg":"sender: closed","stream_id":"zonulefh"}
+{"time":"2025-02-22T02:36:59.718257-03:00","level":"INFO","msg":"stream: closed","id":"zonulefh"}
